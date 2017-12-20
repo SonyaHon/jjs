@@ -1,4 +1,4 @@
-./node_modules
-./build/bundle.js
-./.vs_code
-./.idea
+node_modules/
+build/bundle.js
+.vs_code/
+.idea/
