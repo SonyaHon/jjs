@@ -1,0 +1,20 @@
+{
+  "name": "jjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev-server": "NODE_ENV=devel node ./node_modules/webpack/bin/webpack.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.7",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0"
+  }
+}
