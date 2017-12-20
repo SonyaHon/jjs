@@ -7,7 +7,7 @@ module.exports = {
     path: __dirname + '/build',
     filename: 'bundle.js'
   },
-  devtool: NODE_ENV === 'devel' ? 'eval' : false,
+  devtool: NODE_ENV === 'devel' ? 'source-map' : false,
   watch: NODE_ENV === 'devel',
 
   module: {

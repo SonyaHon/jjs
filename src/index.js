@@ -9,3 +9,6 @@ import GUI from './engine/UI/index.js';
   * 2 step is to create and init the core
   * 3 step is to launch all
 */
+var g = new GUI(document.getElementById("root"));
+g.start();
+console.log(g);
